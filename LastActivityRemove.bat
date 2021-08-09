@@ -1,5 +1,5 @@
 @echo off
-Title Coded by Taking2ls - Discord Programs
+Title LastActivityRemover
 net session >nul 2>&1
     if %errorLevel% == 0 (
         goto admin
@@ -10,7 +10,6 @@ net session >nul 2>&1
 echo.
 @echo off  & setlocal
 color b
-echo Coded by Taking2Ls 
 echo.
 goto Ask
 
